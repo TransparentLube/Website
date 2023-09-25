@@ -1,0 +1,28 @@
+body {
+    
+    background-image: url(icegif-1344.gif);
+    background-size: 105%;
+    
+}
+
+#myHeader {
+    
+    font-family: 'Comic Sans MS', cursive;;
+    text-align: center;
+    color:darkcyan
+    
+}
+
+#p1 {
+    
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 21px;
+    color: darkslategrey;
+    
+}
+
+#p2 {
+    
+    color: dimgray;
+    
+}
