@@ -1,7 +1,6 @@
 body {
     
-    background-image: url(icegif-1344.gif);
-    background-size: 105%;
+    background-color: gray;
     
 }
 
@@ -15,6 +14,7 @@ body {
 
 #p1 {
     
+    text-align: center;
     font-family: 'Comic Sans MS', cursive;
     font-size: 21px;
     color: darkslategrey;
@@ -23,6 +23,7 @@ body {
 
 #p2 {
     
-    color: dimgray;
-    
+    color: darkslategrey;
+    text-align: center
+        
 }
