@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+#topMenu{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+}
+
+#topMenu a{
+    float: left;
+    display: block;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#topMenu a:hover{
+    background-color: burlywood;
+    color: white;
+}
+
+#topMenu img{
+    height: 40px;
+    margin: -12px -14px;
+}
+
+#topMenu marquee{
+    color: red;
+}

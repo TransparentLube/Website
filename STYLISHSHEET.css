@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background-color: darkgrey;
+}
+
+#sillyBanner{
+    width: 100%;
+    height: auto;
+    padding-top: 48px;   
+}
+
+#topMenu{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+}
+
+#topMenu a{
+    float: left;
+    display: block;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#topMenu a:hover{
+    background-color: burlywood;
+    color: white;
+}
+
+#topMenu img{
+    height: 40px;
+    margin: -12px -14px;
+}
+
+#container{
+    display: flex;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;   
+}
+
+#left{
+    width: 50%;
+}
+
+#left img{
+    width: 100%;
+    text-align: center; 
+}
+
+#right{
+    flex-grow: 1;
+    width: 50%;
+}
+
+#right h1{
+    font-style: italic;
+    text-align: center;
+}
+
+#p1{
+    font-size: 22px;
+    text-align: center;
+}
+
+#p2{
+    font-size: 20px;
+    text-align: center;
+}
+
+#p3{
+    text-align: center;
+}

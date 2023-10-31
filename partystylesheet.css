@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-image: url(Bentley.gif);
+}
+
+#topMenu{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+}
+
+#topMenu a{
+    float: left;
+    display: block;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#topMenu a:hover{
+    background-color: burlywood;
+    color: white;
+}
+
+#topMenu img{
+    height: 40px;
+    margin: -12px -14px;
+}
+
+#container{
+    display: flex;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;   
+}
+
+#top{
+    text-align: center;
+}
+
+#kittyville{
+    margin-top: 3%;
+    margin-left: 350px;
+    height: 60%;
+}
+
+#ourparty{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+#bottom{
+    background-color: beige;
+    float: inherit;
+}

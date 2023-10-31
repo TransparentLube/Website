@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background-color: grey;
+}
+
+#topMenu{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+}
+
+#topMenu a{
+    float: left;
+    display: block;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#topMenu a:hover{
+    background-color: burlywood;
+    color: white;
+}
+
+#topMenu img{
+    height: 40px;
+    margin: -12px -14px;
+}
+
+#topMenu marquee{
+    color: blue;
+}
+
+#container{
+    display: flex;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;   
+}
+
+#left{
+    width: 50%;
+}
+
+#left img{
+    width: 100%;
+    text-align: center;
+    border-radius: 100%;
+}
+
+#right{
+    flex-grow: 1;
+    width: 50%;
+    background-color: darkgray;
+}
+
+#right h1{
+    font-style: italic;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#right p{
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+#right h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+#schizo{
+    text-align: center;
+}
